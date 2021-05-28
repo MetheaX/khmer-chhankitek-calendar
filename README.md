@@ -10,15 +10,29 @@ How to build
 
 # Usages
 1. Adding dependency into maven project
-
-       <dependency>
-            <groupId>io.methea</groupId>
-            <artifactId>khmer-chhankitek-calendar</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
+    ````
+    <dependency>
+      <groupId>io.github.metheax</groupId>
+      <artifactId>khmer-chhankitek-calendar</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    ````
 2. Import our compiled jar
    Download `khmer-chhankitek-calendar.jar` from `bin` directory then import it into your java project.
+3. Call Chhankitek
+    ````
+    KhmerLunarDate lunarDate = Chhankitek.toKhmerLunarDateFormat(LocalDateTime.of(2021, 5, 28, 0, 0, 0, 0));
+    ````
+   Log `lunarDate` it should display `ថ្ងៃសុក្រ ២ រោច ខែជេស្ឋ ឆ្នាំឆ្លូវ ត្រីស័ក ពុទ្ធសករាជ ២៥៦៥` in your console.
+   Available properties of `KhmerLunarDate`
+    ````
+    dayOfWeek: String // អាទិត្យ, ច័ន្ទ...
+    lunarDay: String // ១កើត, ២កើត...
+    lunarMonth: String // ចេត្រ...
+    lunarZodiac: String // ជូត, ឆ្លូវ...
+    lunarEra: String // ត្រីស័ក...
+    lunarYear: String // ២៥៦៥, ២៥៦៦...
+    ````
 # Support
 If you encounter any issues regarding this project, please create a Github Issue.
 
