@@ -18,7 +18,7 @@ How to build
     </dependency>
     ````
 2. Import our compiled jar
-   Download `khmer-chhankitek-calendar.jar` from `bin` directory then import it into your java project.
+   Download `khmer-chhankitek-calendar-1.0.0.jar` from `bin` directory then import it into your java project.
 3. Call Chhankitek
     ````
     KhmerLunarDate lunarDate = Chhankitek.toKhmerLunarDateFormat(LocalDateTime.of(2021, 5, 28, 0, 0, 0, 0));
