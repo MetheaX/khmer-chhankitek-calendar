@@ -4,13 +4,41 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.methea</groupId>
+    <groupId>io.github.metheax</groupId>
     <artifactId>khmer-chhankitek-calendar</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Khmer Chhankitek Calendar</name>
+    <description>Transform GREGORIAN calendar's date into KHMER CHHANKITEK calendar's date.</description>
+    <url>https://metheax.github.io/khmer-chhankitek-calendar/</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Kuylim Tith</name>
+            <email>kuylim.tith@gmail.com</email>
+            <organization>Methea</organization>
+            <organizationUrl>https://github.com/MetheaX</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/MetheaX/khmer-chhankitek-calendar.git</connection>
+        <developerConnection>scm:git:ssh://github.com/MetheaX/khmer-chhankitek-calendar.git</developerConnection>
+        <url>https://github.com/MetheaX/khmer-chhankitek-calendar/tree/main</url>
+    </scm>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 </project>

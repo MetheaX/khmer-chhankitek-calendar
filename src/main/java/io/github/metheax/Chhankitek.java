@@ -1,4 +1,4 @@
-package io.methea;
+package io.github.metheax;
 
 /**
  * Author: Kuylim TITH
