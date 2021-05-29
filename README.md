@@ -35,9 +35,9 @@ How to build
 5. Legacy Java Porject, Imported compiled jar
    Download `khmer-chhankitek-calendar-1.0.0.jar` from `bin` directory then import it into your java project.
 ### 2. Access Chhankitek
-    ````
-    KhmerLunarDate lunarDate = Chhankitek.toKhmerLunarDateFormat(LocalDateTime.of(2021, 5, 28, 0, 0, 0, 0));
-    ````
+````
+KhmerLunarDate lunarDate = Chhankitek.toKhmerLunarDateFormat(LocalDateTime.of(2021, 5, 28, 0, 0, 0, 0));
+````
 Log `lunarDate`, it should display `ថ្ងៃសុក្រ ២ រោច ខែជេស្ឋ ឆ្នាំឆ្លូវ ត្រីស័ក ពុទ្ធសករាជ ២៥៦៥` in your console.
 Available properties of class `KhmerLunarDate`
 ````
