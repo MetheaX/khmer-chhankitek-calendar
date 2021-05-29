@@ -2,7 +2,8 @@
 #  Khmer Chhankitek Calendar
 Transform `GREGORIAN` calendar's date into `KHMER CHHANKITEK` calendar's date.
 # Build from source
-`If need modification on library, elseif skip this part.`
+`If need modification on library, else skip this part.`
+
 Pre-requires
 * Java 8+
 * Maven as its build tool.
